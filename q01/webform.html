@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+             text-align:center;
+        }
+    </style>
+    <script>
+ function ShowDetails()
+{
+    let name=document.getElementById("userName").value;
+    let date=document.getElementById("date").value;
+    
+ 
+    let text = `<h1>The Name: ${name}</h1><p>DOB:${date}</p>`;
+    document.getElementById("printText").innerHTML = text;
+ 
+}
+    </script>
+</head>
+<body style="color: black; background-color: rgb(149, 45, 66);">
+    <h1 style="color: aliceblue; background-color: black;">APPLICATION FORM</h1>
+    <form>
+<p> Enter name:<input type="text" id="userName"></p>   
+<p>Enter Date of Birth:<input type="date" id="date"></p>
+<p>
+    Select the state:
+    <select id="option">
+        <option >---Choose One---</option>
+        <option >AP</option>
+        <option >Telangana</option>
+        <option >Kerala</option>
+        <option >karnataka</option>
+    </select>
+</p>
+<p>
+    Marital Status: <input type="radio" id="status" value="Single" name="status">Single<input type="radio" id="status" value="Married" name="status1">Married
+</p> 
+<p><button type="button" onclick="ShowDetails()">submit</button>
+</form>
+ 
+<div id="printText">
+ 
+</div>
+ 
+</body>
+</html>

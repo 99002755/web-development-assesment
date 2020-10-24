@@ -1,0 +1,34 @@
+
+
+[
+    {
+        "name": "vihitha",
+        "city": "vijayawada",
+        "type": "Non-veg",
+        "cuisine": ["Indian"]
+    },
+    {
+        "name": "Sathya",
+        "city": "Chennai",
+        "type": "Veg",
+        "cuisine": ["Continental"]
+    },
+    {
+        "name": "Siri",
+        "city": "Banglore",
+        "type": "Non-Veg",
+        "cuisine": ["Indian", "Arabian"]
+    },
+    {
+        "name": "Paradise",
+        "city": "Hyderabad",
+        "type": "Non-Veg",
+        "cuisine": ["Chinese"]
+    },
+    {
+        "name": "Chandhini",
+        "city": "Mysore",
+        "type": "Veg",
+        "cuisine": ["Indian"]
+    }
+]
